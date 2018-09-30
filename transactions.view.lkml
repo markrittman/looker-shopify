@@ -1,4 +1,4 @@
-view: transactions {
+view: transaction {
   sql_table_name: shopify.transactions ;;
 
   dimension: receipt__parent_transaction_id {

@@ -1,5 +1,5 @@
 view: products {
-  sql_table_name: shopify.products ;;
+  sql_table_name: shopify.product ;;
 
   dimension: image__product_id {
     primary_key: yes

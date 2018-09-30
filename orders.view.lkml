@@ -1,5 +1,5 @@
 view: orders {
-  sql_table_name: shopify.orders ;;
+  sql_table_name: shopify.order ;;
 
   dimension: id {
     primary_key: yes
