@@ -1,4 +1,4 @@
-connection: "shopify_data"
+connection: "rittman_bigquery"
 
 # include all the views #
 include: "*.view"
