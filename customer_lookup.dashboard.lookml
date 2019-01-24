@@ -303,9 +303,9 @@
     explore: orders
     type: table
     fields:
-    - orders__line_items.order_id
+    - orders_line_items.order_id
     - products.product_image
-    - orders__line_items.name
+    - orders_line_items.name
     - orders.created_date
     - orders.customer_created_date
     - order_refunds.created_date

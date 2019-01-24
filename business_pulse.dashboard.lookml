@@ -8,7 +8,7 @@
     explore: orders
     type: single_value
     fields:
-    - orders__line_items.avg_price
+    - orders_line_items.avg_price
     - orders.created_date
     fill_fields:
     - orders.created_date
@@ -59,9 +59,9 @@
     type: single_value
     fields:
     - orders.reporting_period
-    - orders__line_items.count
+    - orders_line_items.count
     sorts:
-    - orders__line_items.count desc
+    - orders_line_items.count desc
     limit: 500
     query_timezone: America/New_York
     custom_color_enabled: false
@@ -112,7 +112,7 @@
     explore: orders
     type: looker_area
     fields:
-    - orders__line_items.count
+    - orders_line_items.count
     - products.product_type
     - orders.created_date
     pivots:
@@ -123,7 +123,7 @@
       products.product_type: "%Sneakers%,%Apparel%,%Choozepack%,%Sandals%,%Loafers%,%Slip-Ons%"
       orders.created_year: '2016'
     sorts:
-    - orders__line_items.count desc 0
+    - orders_line_items.count desc 0
     - products.product_type
     limit: 500
     column_limit: 50
@@ -294,7 +294,7 @@
     explore: orders
     type: single_value
     fields:
-    - orders__line_items.first_purchase_count
+    - orders_line_items.first_purchase_count
     filters:
       orders.created_date: '2017'
     sorts:

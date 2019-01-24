@@ -277,7 +277,7 @@
     - orders.total_weight
     - orders.total_order_revenue
     - orders.created_date
-    - orders__line_items.name
+    - orders_line_items.name
     - products.product_image
     - customers.total_spent_per_customer
     sorts:
